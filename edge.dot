@@ -13,19 +13,24 @@ graph edgehub {
         f -- m;
 	f -- n;
 	f -- o;
+        h -- p;
+        j -- q;
 	a [label = "Equity and Diversity in Genomics Education\nComputational Genomics Data Science\nEducational Hub\nOrganizational Chart"];
-	d [label = "VJ Carey\n(contact MPI)\nCloud Platform Lead\nSoftware Design\nOperations Administration"];
-	e [label = "LG Landry\n(MPI)\nGenetics\nPedagogics\nFaculty Outreach \nand Fellowship\nAdministration"];
-	f [label = "KB White\n(co-PI)\nInstitutional\nOutreach\nUndergrad Interface"];
-        g [label = "A Mahmoud\nCloud Strategy\nKubernetes\nGalaxy"];
+	d [label = "VJ Carey\n(contact MPI)\nCloud Platform Lead,\nSoftware Design,\nBioconductor,\nAnVIL,\nOperations Administration"];
+	e [label = "LG Landry\n(MPI)\nGenetics\nPedagogics,\nFaculty Outreach,\nFellowship\nAdministration"];
+	f [label = "KB White\n(co-PI)\nInstitutional\nOutreach,\nUndergrad Interface"];
+        g [label = "A Mahmoud\nCloud Strategy,\nKubernetes\nGalaxy"];
         h [label = "N Laranjo\nProject\nManagement"];
-        i [label = "K Zarringhalam\nComputer Science\nstrategy\nCancer Genomics"];
-        j [label = "H Ortiz Zuazaga\nCGDS Carpentries\nPuerto Rico\nHSI Outreach"];
+        i [label = "K Zarringhalam\nComputer Science\nStrategy,\nCancer Genomics"];
+        j [label = "H Ortiz Zuazaga\nCGDS Carpentries Lead,\nPuerto Rico,\nHSI Outreach"];
         k [label = "(TBN) HMS Fellowship\nConsultant"];
-        l [label = "BT Moyers\nCarpentries\nEcological\nGenomics"];
+        l [label = "BT Moyers\nCarpentries,\nEcological\nGenomics"];
         m [label = "B Michel\nEducational\nEvaluation"];
         n [label = "M Ritchie\nInterface to\nScientific\nExperts\nGroup"];
-        o [label = "C Carryl, W White\nCardiogenomics\nComputer Science\nHBCU\nOutreach"];
+        o [label = "C Carryl,\nW White\nCardiogenomics,\nComputer Science,\nHBCU\nOutreach"];
+        p [label = "X Reilly\nProject Management,\nMeeting records,\nWebsite"];
+        q [label = "MEP Hernandez,\nJEG Arraras,\nBig Data\nComputer Science"];
 {rank=same; d e f}
 {rank=same; g h i j k l m n o}
+{rank=same; p q}
 }
