@@ -1,0 +1,31 @@
+
+
+graph edgehub {
+        node [shape=box];
+        d -- e -- f;
+        a -- e [color="white"];
+        d -- g;
+	d -- h;
+	d -- i;
+        e -- j;
+	e -- k;
+	e -- l;
+        f -- m;
+	f -- n;
+	f -- o;
+	a [label = "Equity and Diversity in Genomics Education\nComputational Genomics Data Science\nEducational Hub\nOrganizational Chart"];
+	d [label = "VJ Carey\n(contact MPI)\nCloud Platform Lead\nSoftware Design\nOperations Administration"];
+	e [label = "LG Landry\n(MPI)\nGenetics\nPedagogics\nFaculty Outreach \nand Fellowship\nAdministration"];
+	f [label = "KB White\n(co-PI)\nInstitutional\nOutreach\nUndergrad Interface"];
+        g [label = "A Mahmoud\nCloud Strategy\nKubernetes\nGalaxy"];
+        h [label = "N Laranjo\nProject\nManagement"];
+        i [label = "K Zarringhalam\nComputer Science\nstrategy\nCancer Genomics"];
+        j [label = "H Ortiz Zuazaga\nCGDS Carpentries\nPuerto Rico\nHSI Outreach"];
+        k [label = "(TBN) HMS Fellowship\nConsultant"];
+        l [label = "BT Moyers\nCarpentries\nEcological\nGenomics"];
+        m [label = "B Michel\nEducational\nEvaluation"];
+        n [label = "M Ritchie\nInterface to\nScientific\nExperts\nGroup"];
+        o [label = "C Carryl, W White\nCardiogenomics\nComputer Science\nHBCU\nOutreach"];
+{rank=same; d e f}
+{rank=same; g h i j k l m n o}
+}
