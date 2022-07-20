@@ -1,0 +1,27 @@
+title,level,start,end
+Inclusive CGDS strategy setup,process,1,4
+Roles review,deliverable,1,2
+Identify SEG,deliverable,1,2
+WP: Undergrad CGDS topics,deliverable,1,4
+WP: Prerequisites: HS biosciences,deliverable,3,5
+WP: Scope of CGDS research/methods,deliverable,1,4
+(update),deliverable,13,16
+Platform concepts,process,1,20
+WP: Using federated computing for CGDS,deliverable,1,4
+TTT: Formulating research focus,deliverable,2,6
+TTT: Use cases in inclusive CGDS,deliverable,7,10
+Social determinants of health,focus,7,8
+Disparity statistics,focus,7,8
+Representativity of CGDS resources,focus,9,10
+Intro to NCPI,focus,9,10
+Platform usage,process,2,6
+TTT: Intro to markdown and jupyter,deliverable,2,4
+TTT: Registering for AnVIL and AoU,deliverable,3,6
+TTT: Data models for AnVIL and AoU,deliverable,3,6
+Advanced: App development with Galaxy,focus,5,6
+TTT: Reproducible research, process,5,8
+Source code control,focus,5,7
+Data provenance,focus,7,8
+EDGE target network development,process,8,14
+Solicitation of competitive applications,deliverable,10,16
+Awards and support,deliverable,12,20
