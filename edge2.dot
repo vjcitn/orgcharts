@@ -8,7 +8,7 @@ graph edgehub {
 	d -- h;
 	d -- i;
         e -- j;
-	e -- k;
+/*	e -- k; */
 	e -- l;
         f -- m;
         f -- s;
@@ -25,16 +25,16 @@ graph edgehub {
         h [label = "N Laranjo\nProject\nManagement"];
         i [label = "K Zarringhalam\nComputer Science\nStrategy,\nCancer Genomics"];
         j [label = "H Ortiz Zuazaga\nCGDS Carpentries Lead,\nPuerto Rico,\nHSI Outreach"];
-        k [label = "(TBN) HMS Fellowship\nConsultant"];
+/*        k [label = "(TBN) HMS Fellowship\nConsultant"]; */
         l [label = "BT Moyers\nCarpentries,\nEcological\nGenomics"];
         m [label = "B Michel\nEducational\nEvaluation"];
         n [label = "M Ritchie\nInterface to\nScientific\nExperts\nGroup"];
         o [label = "C Carryl,\nW White\nCardiogenomics,\nComputer Science,\nHBCU\nOutreach"];
         p [label = "X Reilly\nProject Management,\nMeeting records,\nWebsite"];
         q [label = "MEP Hernandez,\nJEG Arraras,\nBig Data,\nComputer Science"];
-        r [label = "Jhalisa Potts\nAdministration,\nCommunications"];
+        r [label = "J Potts\nAdministration,\nCommunications"];
         s [label = "Erica Feick, CMA\nMeeting\nAdministration"];
 {rank=same; d e f}
 {rank=same; g h i j l m n o}
-{rank=same; k p q s}
+{rank=same; /* k */ p q s}
 }
